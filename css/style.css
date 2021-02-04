@@ -1,0 +1,609 @@
+/* global css */ 
+
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,p,span,button,input,a{
+	font-family: 'Poppins', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*      fonts family    
+
+font-family: 'Poppins', sans-serif;
+
+*/ 
+
+/* Header Section css starts here*/ 
+header{
+	width: 100%;
+	margin:20px 0 5px 0;
+
+}
+
+.btn{
+	background-color: #2500f9 !important;
+	color: white !important;
+	padding: 9px 25px;
+	border-radius: 35px;
+	font-weight: bold;
+}
+
+.navbar-nav{
+	margin-right: 32px;
+}
+.nav-link{
+	color: #242f51 !important;
+}
+.nav-item{
+	margin: 0 16px;
+}
+
+/* Header Section css ends here*/ 
+
+/*Banner section css*/ 
+.banner{
+	width: 100%;
+	margin: 10px 0 50px 0;
+	background: url(../img/bg.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+.app{
+	background-color: #e2eaed;
+	border-radius: 20px;
+	width: 50%;
+	margin-top: 116px;
+    margin-left: 96px;
+    margin-bottom: 10px;
+    
+}
+.app span{
+	color: #242f51;
+	font-weight: bold;
+	font-size: 90%;
+	padding-left: 5px;
+}
+.banner_text h1{
+	font-weight: 600;
+	padding: 10px 0;
+	margin-left: 96px;
+	color: #242f51;
+	
+}
+.banner_text p{
+	font-weight: 400;
+	padding: 10px 0;
+	margin-left: 96px;
+	color: #616368;
+	font-size: 18px;
+}
+.btn2 a{
+	color: #ffff;
+    font-weight: bold;
+}
+.banner .btn2{
+	background-color: #2500f9 !important;
+	padding: 9px 25px;
+    border-radius: 35px;
+    margin-left: 96px;
+    margin-right: 20px;
+    margin-top: 10px;
+    border: 1px solid #2500f9;
+	
+}
+.demo{
+	color: #2500f9;
+	font-weight: bold;
+}
+/*<!-- client logo section css strats here -->*/
+
+.client{
+	width: 100%;
+	margin: 100px 0;
+}
+
+.client h6{
+	color: #242f51;
+	text-align: center;
+	font-weight: 600;
+	margin-bottom: 40px;
+}
+.owl-carousel .owl-item img {
+	width: auto !important;
+	text-align: center;
+}
+
+
+/*<!-- client logo section css ends here -->*/
+/* Feature section css starts here */ 
+
+.Feature{
+	width: 100%;
+	margin: 80px 0;
+}
+
+.left_feature{
+	padding-top: 30px;
+}
+
+.feature_middle h2{
+	font-weight: 600;
+	padding: 5px 10px;
+	color: #242f51;
+	width: 85%;
+}
+
+.feature_middle p{
+	font-weight: 400;
+	padding: 5px 10px;
+	color: #616368;
+	margin-bottom: 20px;
+}
+.mdlhead1 h5{
+	font-weight: 400;
+	padding: 2px 0;
+	color: #f55767;
+}
+
+.mdlhead1 p{
+	font-weight: 400;
+	padding: 10px 0;
+	color: #616368;
+}
+
+.mdlhead2 h5{
+	font-weight: 400;
+	padding: 2px 0;
+	color: #2563ff;
+}
+
+.mdlhead2 p{
+	font-weight: 400;
+	padding: 10px 0;
+	color: #616368;
+}
+.fastP_img{
+	padding: 40px 0 0 44px;
+}
+.fast_img img{
+	margin-top: 50px;
+	padding-right: 0 !important;;
+}
+
+.mdlhead3 h5{
+	font-weight: 400;
+	padding: 2px 0;
+	color: #78ba90;
+}
+
+.mdlhead3 p{
+	font-weight: 400;
+	padding: 10px 0;
+	color: #616368;
+}
+/* Feature section css ends here */ 
+
+/* Description section css starts her  */ 
+
+.Description{
+	width: 100%;
+	margin: 120px 0;
+}
+
+.Description .left_dscp h2{
+	font-weight: 600;
+	padding: 10px;
+	color: #242f51;
+	border-right: 1px solid #b9b9b8;
+
+}
+
+.Description .right_dscp p{
+	font-weight: 400;
+	padding: 10px 30px 10px 5px;
+	color: #616368;
+}
+.des{
+	margin-bottom: 50px;
+	padding-bottom: 10px;
+}
+.badge1 h5{
+	font-weight: 400;
+	padding: 10px;
+	color: #f55767;
+}
+
+.badge1 p{
+	font-weight: 400;
+	padding: 10px;
+	color: #616368;
+	width: 66%;
+}
+
+.badge2 h5{
+	font-weight: 400;
+	padding: 10px;
+	color: #2563ff;
+}
+
+.badge2 p{
+	font-weight: 400;
+	padding: 10px;
+	color: #616368;
+	width: 66%;
+}
+
+.badge3 h5{
+	font-weight: 400;
+	padding: 10px;
+	color: #40975f;
+
+}
+
+.badge3 p{
+	font-weight: 400;
+	padding: 10px;
+	color: #616368;
+	width: 66%;
+}
+/* Description section css ends her  */ 
+
+/*<!-- Design section css starts here  -->*/ 
+.Design{
+	width: 100%;
+	margin: 80px;
+}
+.dsgn_dsc h2{
+	font-weight: 700;
+    padding: 10px 0;
+    color: #242f51;
+    width: 70%;
+    margin-top: 110px;
+    margin-left: 26px;
+}
+
+.dsgn_dsc p{
+	font-weight: 400;
+	padding: 10px 0;
+	color: #616368;
+	margin-left: 26px;
+}
+
+.dsgn_dsc .btn{
+	color: #ffff;
+    font-weight: bold;
+    margin-left: 26px;
+}
+/*<!-- Design section ends here  -->*/ 
+
+/*<!-- Service section css strats here -->*/
+ .service{
+ 	width: 100%;
+	margin: 20px 0;
+ }
+.content{
+	text-align: center;
+}
+.content h2{
+	color: #242f51;
+	font-weight: 600;
+	padding-bottom: 20px;
+	font-size: 46px;
+}
+.content p{
+	font-family: 'Poppins', sans-serif;
+	color: #616368;
+	font-weight: 400;
+	padding-bottom: 20px;
+	font-size: 15px;
+}
+
+.service_img1{
+	text-align: center;
+}
+.feature_des h5{
+	color: #242f51;
+	font-weight: 600;
+	margin-top: 20px;
+    margin-bottom: 10px;
+}
+.feature_des p{
+	color: #616368;
+	padding: 0 46px;
+    
+}
+.feature_des{
+	text-align: center;
+}
+
+/*<!-- Service section css ends here -->*/ 
+/*<!-- ultimate feature section css starts here -->*/
+
+.ultimate_fetaure{
+	width: 100%;
+	margin: 80px 0;
+}
+.ult{
+	text-align: left;
+}
+.ult h2{
+	font-weight: 700;
+    padding: 10px 0;
+    color: #242f51;
+    width: 32%;
+  	margin-bottom: 8px;  
+}
+.ult p{
+	color: #616368;
+	width: 42%;
+	margin-bottom: 30px;  
+}
+
+.planning h5{
+	color: #242f51;
+	font-weight: 600;
+	margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.planning p{
+	color: #616368;
+	
+}
+
+/*<!-- ultimate feature section css ends here -->*/
+/*   <!-- charges section starts here -->  */ 
+
+
+
+
+
+/*   <!-- charges section ends here -->  */ 
+/*<!-- Pricing section css starts heere -->*/ 
+.Pricing{
+	width: 100%;
+	padding: 50px 0;
+	text-align: center;
+}
+
+.trigger{
+	border:3px solid #ebebeb;
+	display: inline-block;
+	padding: 2px;
+	border-radius: 51px;
+}
+
+.trigger .active{
+	background-color: #2563ff !important;
+	color: white;
+	padding: 15px 42px;
+	border: none;
+	border-radius: 35px;
+}
+
+.trigger .inactive{
+	background-color: #ffff !important;
+	color: #97989c !important;
+	padding: 15px 42px;
+	border: none;
+}
+
+.card{
+	margin: 32px;
+}
+
+.table_active{
+	border:none;
+	box-shadow: rgb(36 47 81);
+}
+.table_active .card_header{
+	border:none;
+	margin: 32px;
+}
+.card_header h1{
+	font-weight: bold;
+	font-size: 60px;
+	margin-bottom: 32px;
+	color: #242f51;
+}
+
+.card_header h1 span{
+	font-weight: 400;
+	font-size: 20px;
+	color: #999ca5;
+}
+.card_header h4{
+	color: #242f51;
+	font-weight: 600;
+}
+.card_header p{
+	color: #999ca5;
+	
+}
+.card_body ul{
+	padding: 0px;
+	color: #242f51;
+}
+
+.card_body ul li{
+	list-style: none;
+	margin: 12px 0;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	color: #999ca5 !important;
+}
+
+.card_body .btn{
+	margin: 20px 0;
+}
+.card_body a{
+	margin: 22px 0;
+	display: inline-block;
+
+}
+/*<!-- Pricing section css ends heere -->*/ 
+
+/*<!-- review section css starts heere -->*/ 
+
+.review{
+	width: 100%;
+	margin-top: 50px;
+}
+
+.review h1{
+	color: #242f51;
+	font-weight: 600;
+	padding-bottom: 20px;
+	font-size: 43px;
+}
+
+.review p{
+	color: #888a8d;
+	font-weight: 400;
+	padding-bottom: 20px;
+	
+}
+.review h5{
+	color: #242f51;
+	font-weight: 600;
+	margin: 20px 0;
+	
+}
+.author img{
+	margin-right: 20px;
+}
+
+.author p{
+	color: #313b5b;
+	font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+.zoltan{
+	color: #616368 !important;
+	margin-top: 0 !important;
+}
+/*<!-- review section css ends heere -->*/
+
+.accordion-button::after {
+    background-image: url(../img/plus.png) !important;
+   } 
+/* <!-- FAQ section css starts here --> */ 
+
+/*<!-- Frequent Section css starts here --> */ 
+.frequently{
+	width: 100%;
+	margin-top: 150px;
+}
+
+.frequent{
+	text-align: center;
+}
+.frequent h2{
+	color: #242f51;
+	font-weight: 600;
+	padding-bottom: 20px;
+}
+.frequent p{
+	font-family: 'Poppins', sans-serif;
+	color: #616368;
+	font-weight: 400;
+	padding-bottom: 20px;
+}
+.frequent2{
+	background-color: #f5f7fa;
+	padding-left: 30px;
+}
+.frequent2 h5{
+	color: #242f51;
+	font-weight: 600;
+	padding: 20px 0;
+}
+.frequent2 p{
+	color: #616368;
+	font-weight: 400;
+    padding: 5px 0;
+    font-size: 11px;
+    padding-right: 20px;
+    width: 95%;;
+}
+
+.frequently button{
+	color: #242f51;
+	font-weight: 600;
+	background-color: #f5f7fa;
+	margin: 10px;
+}
+
+/*<!-- Frequent Section css ends here -->*/ 
+/*<!-- Download Section css ends here -->*/ 
+.Download{
+	width: 100%;
+	margin-top: 80px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+
+}
+.Download h2{
+	color: #242f51;
+	font-weight: bold;
+    margin-top: 58px;
+    margin-bottom: 14px;
+}
+.Download p{
+	color: #616368;
+	font-size: 80%;
+	padding: 10px 0;
+}
+
+.Download .btn3 img{
+	width: 120px;
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+
+/*<!-- Download Section css ends here -->*/ 
+/*<!-- footer Section css starts here -->*/ 
+
+.footer{
+	width: 100%;
+	background-color: #09142e;
+	margin: 50px 0;
+	padding: 50px 0;
+}
+.footer .footer_img{
+	text-align: center;
+}
+
+.footer .footer_list{
+	text-align: center;
+}
+.footer_list ul li a{
+	color: #ffff !important;
+}
+.footer .footer_icon{
+	text-align: center;
+}
+
+.footer_icon ul li a{
+	color: #273043 !important;
+}
+
+.footer .footer_icon .special a{
+	color: #ffff !important;
+}
+
+.footer p{
+	text-align: center;
+}
+/*<!-- footer Section css ends here -->*/ 
